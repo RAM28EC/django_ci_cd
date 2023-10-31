@@ -7,7 +7,7 @@ else
     python3 -m venv env
 fi
 
-source /var/lib/jenkins/env/bin/activate
+source /workspace/paac/env/bin/activate
 
 
 pip3 install -r requirements.txt
