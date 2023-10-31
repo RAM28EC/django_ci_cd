@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source env/bin/activate
+source /var/lib/jenkins/workspace/paac/env/bin/activate
 
 cd /var/lib/jenkins/workspace/django-cicd/app
 
