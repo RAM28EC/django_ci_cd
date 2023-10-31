@@ -12,7 +12,7 @@ if [ -d "env" ]
 then
     echo "Python virtual environment exists." 
 else
-    python3.10 -m venv env || { echo 'Failed to create virtual environment.'; exit 1; }
+    python3.10 -m virtualenv env || { echo 'Failed to create virtual environment.'; exit 1; }
 fi
 
 # Print the contents of the directory to verify the existence of env
