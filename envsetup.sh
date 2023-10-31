@@ -6,7 +6,7 @@ then
 else
     python3 -m venv env
 fi
-
+chmod +x env/bin/activate
 source env/bin/activate
 
 
