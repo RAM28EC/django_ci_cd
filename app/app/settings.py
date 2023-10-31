@@ -121,7 +121,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATIC_ROOT = '/var/lib/jenkins/workspace/paac/env/lib/python3.10/site-packages/django/contrib/staticfiles/storage.py'
+STATIC_ROOT = '/var/www/paac/static
+'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
