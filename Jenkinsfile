@@ -7,7 +7,7 @@ pipeline{
       steps  {
             sh '''
             chmod +x ./scripts/envsetup.sh
-            ./scripts/envsetup.sh
+            sudo -S./scripts/envsetup.sh
 
             '''}
         }
