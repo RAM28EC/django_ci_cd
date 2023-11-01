@@ -5,7 +5,7 @@ source /var/lib/jenkins/workspace/paac/env/bin/activate
 cd /var/lib/jenkins/workspace/paac/app
 python3.10 manage.py makemigrations
 python3.10 manage.py migrate
-yes | python3.10 manage.py collectstatic 
+python3.10 manage.py collectstatic --noinput
 
 echo "Migrations done"
 
